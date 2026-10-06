@@ -1,4 +1,4 @@
-# Student Depression Analysis — SQL Server & Tableau
+# Student Depression Analysis
 
 ## Project Overview
 
