@@ -12,7 +12,7 @@ The goal is to understand how different student characteristics are distributed 
 
 ---
 
-# 🎯 Problem Statement
+# Problem Statement
 
 Student well-being can be influenced by multiple academic, lifestyle and financial factors. A structured analysis of student-level data can help identify patterns in the dataset and highlight areas that may require further investigation.
 
@@ -28,7 +28,7 @@ This project analyzes student data to answer questions such as:
 
 ---
 
-# 🎯 Project Objectives
+# Project Objectives
 
 - Load and inspect the student dataset.
 - Perform basic data-quality checks using SQL.
@@ -42,7 +42,7 @@ This project analyzes student data to answer questions such as:
 
 ---
 
-# 🛠️ Tools & Technologies
+# Tools & Technologies
 
 | Tool | Purpose |
 |---|---|
@@ -54,7 +54,7 @@ This project analyzes student data to answer questions such as:
 
 ---
 
-# 📂 Dataset
+# Dataset
 
 The dataset contains **502 student records** and 11 original columns.
 
@@ -76,7 +76,7 @@ The dataset contains **502 student records** and 11 original columns.
 
 ---
 
-# 🔄 Steps Followed
+# Steps Followed
 
 ## Step 1: Load the Dataset
 
@@ -98,7 +98,7 @@ Depression_Student_Dataset
 
 ---
 
-# 🔍 Step 2: Initial Data Inspection
+# Step 2: Initial Data Inspection
 
 The dataset was inspected using SQL queries such as:
 
@@ -119,7 +119,7 @@ GROUP BY Gender;
 
 ---
 
-# 🧹 Step 3: Data Quality Checks
+# Step 3: Data Quality Checks
 
 The SQL workflow checked for missing or blank gender values:
 
@@ -147,7 +147,7 @@ WHERE TABLE_NAME LIKE 'Depression_Student_Dataset';
 
 ---
 
-# 🔤 Step 4: Standardizing Gender
+# Step 4: Standardizing Gender
 
 The SQL script standardizes gender values.
 
@@ -171,7 +171,7 @@ This creates a more consistent representation of gender categories.
 
 ---
 
-# 👥 Step 5: Creating Age Groups
+# Step 5: Creating Age Groups
 
 An additional `Age_Group` column was created:
 
@@ -210,7 +210,7 @@ GROUP BY Age_Group;
 
 ---
 
-# 📊 Step 6: Exploratory SQL Analysis
+# Step 6: Exploratory SQL Analysis
 
 Frequency analysis was performed for the major variables.
 
@@ -272,7 +272,7 @@ GROUP BY Family_History_of_Mental_Illness;
 
 ---
 
-# 🧠 Step 7: Depression Outcome Standardization
+# Step 7: Depression Outcome Standardization
 
 The SQL workflow also standardizes the depression field.
 
@@ -502,7 +502,7 @@ It should **not** be interpreted as proof that one variable causes the other.
 
 ---
 
-# 🚀 How to Run the Project
+# How to Run the Project
 
 ## 1. Download the Repository
 
@@ -541,7 +541,7 @@ You may need to update the connection to point to your own SQL Server instance.
 
 ---
 
-# 🔐 Security & Privacy Note
+# Security & Privacy Note
 
 The Tableau workbook uses a local SQL Server connection.
 
@@ -557,7 +557,7 @@ The dataset included in this repository should be treated as a dataset for analy
 
 ---
 
-# 🎯 Skills Demonstrated
+# Skills Demonstrated
 
 - SQL
 - Microsoft SQL Server
@@ -575,7 +575,7 @@ The dataset included in this repository should be treated as a dataset for analy
 
 ---
 
-# 💼 Project Outcome
+# Project Outcome
 
 This project demonstrates an end-to-end analytical workflow:
 
@@ -601,7 +601,7 @@ The project demonstrates how SQL and Tableau can be combined to transform raw st
 
 ---
 
-# 👤 Author
+# Author
 
 **Harsh Negi**
 
